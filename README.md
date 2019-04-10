@@ -10,7 +10,7 @@ https://adamdehaven.com/blog/how-to-sync-sublime-text-packages-and-settings-acro
 2. Open PowerShell by right-clicking and selecting “Run as administrator” and then enter the following commands
 
 # Navigate to the Sublime Text 3 Package directory
-cd "$env:appdata\Sublime Text 3\Packages"
+`cd "$env:appdata\Sublime Text 3\Packages"`
 
 # Create a symlink within the Sublime Text 3 Package directory pointing to the User folder within Dropbox/Sync/Sublime Text/ directory.
-cmd /c mklink /D User "$env:userprofile\Dropbox\Sublime\Sublime_Text3_settings"
+`cmd /c mklink /D User "$env:userprofile\Dropbox\Sublime\Sublime_Text3_settings"`
