@@ -14,3 +14,6 @@ https://adamdehaven.com/blog/how-to-sync-sublime-text-packages-and-settings-acro
 
 # Create a symlink within the Sublime Text 3 Package directory pointing to the User folder within Dropbox/Sync/Sublime Text/ directory.
 `cmd /c mklink /D User "$env:userprofile\Dropbox\Sublime\Sublime_Text3_settings"`
+
+
+Git is a good tool for every developer :)
